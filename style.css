@@ -6,10 +6,76 @@
 
 .container {
   width: 100%;
-  height: 900px;
-  background: #2FF1A0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  height: 700px;
+  background: #F65B19;
+}
+.header {
+  width: 70%;
+  background: #F65B19;
+  margin: 20px auto;
+  border: 1px solid black;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#utenteInput {
+  width: 80px;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+h2 {
+  width: 200px;
+  height: 50px;
+  color: white;
+  padding: 10px;
+}
+
+.codici_player {
+  width: 30%;
+  height: 600px;
+  float: left;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid white;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.identificativoPlayer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid white;
+  background-color: lightgrey;
+  color: white;
+  cursor: pointer;
+}
+
+.statistiche {
+  width: 60%;
+  height: 600px;
+  float: left;
+  margin: 10px;
+  background-image: url('https://www.ideawebtv.it/wp-content/uploads/2016/12/pallone_basket-1.jpg');
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.stati {
+  width: 60%;
+  margin: 80px auto;
+  background-color: rgba(207, 158, 158, 0.8);
+  border-radius: 30px;
+}
+.stati ul {
+  font-size: 20px;
+  list-style: none;
+}
+.stati ul li {
+  padding: 20px;
+  color: black;
 }
